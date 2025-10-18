@@ -6,6 +6,7 @@ Swap the TODOs with your existing matcher / path / builder modules.
 from typing import Dict, Any, Tuple, List
 import pandas as pd
 from neo4j import GraphDatabase
+from .adapters.matcher_adapter import match_concepts_adapter
 
 class AiviaEngine:
     def __init__(self, driver, schema_index=None, value_index=None):
@@ -31,17 +32,8 @@ class AiviaEngine:
 
     # ----------------- internals (temporary stubs) -----------------
     def _match_concepts(self, question: str, top_k: int) -> Dict[str, Any]:
-        # TEMP: ultra-light keyword heuristic so the API works today.
-        q = question.lower()
-        return {
-            "needs_amount_gt": 10000 if "10k" in q or "10000" in q else None,
-            "window_days": 60 if "60" in q else 30 if "30" in q else None,
-            "next_meeting_days": 14 if "14" in q else None,
-            "wants_commit": "commit" in q,
-            "wants_roles": [r for r in ["finance","security","economic buyer"] if r in q],
-            "stage_eq": "evaluate" if "evaluate" in q else None,
-            "stale_days": 21 if "21" in q else 14 if "14" in q else None,
-        }
+        # Use the adapter to call the real matcher (or fallback to stub)
+        return match_concepts_adapter(question, top_k=top_k)
 
     def _resolve_path(self, match: Dict[str, Any]) -> List[str]:
         # TEMP: we know the Sales CRM graph; prefer short paths.
