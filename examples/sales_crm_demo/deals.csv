@@ -1,0 +1,18 @@
+deal_id,account_id,name,amount,stage,created_date,close_date,owner_user_id,source,is_commit
+DL-3001,AC-1010,Platform Subscription,12000,Evaluate,2025-07-01,,U-01,Referral,false
+DL-3002,AC-1006,Enterprise Suite,18000,Prospecting,2025-09-05,,U-01,CMP-4004,false
+DL-3003,AC-1006,Data Integration,7500,Prospecting,2025-10-09,,U-04,CMP-4003,true
+DL-3004,AC-1005,Team Plan,40000,Legal,2025-07-10,,U-02,Partner,true
+DL-3005,AC-1005,API Access,60000,Evaluate,2025-09-19,,U-04,Referral,false
+DL-3006,AC-1008,Enterprise Suite,12000,Closed Won,2025-06-23,2025-08-06,U-06,Partner,false
+DL-3007,AC-1002,API Access,12000,Prospecting,2025-09-18,,U-02,Inbound,true
+DL-3008,AC-1002,Security Assessment,60000,Proposal,2025-10-07,,U-04,CMP-4001,false
+DL-3009,AC-1011,Team Plan,12000,Legal,2025-06-19,,U-06,CMP-4004,false
+DL-3010,AC-1011,Platform Subscription,18000,Legal,2025-09-22,,U-01,CMP-4001,true
+DL-3011,AC-1001,Data Integration,7500,Prospecting,2025-07-25,,U-01,CMP-4001,false
+DL-3012,AC-1001,Compliance Module,12000,Legal,2025-09-15,,U-02,CMP-4001,true
+DL-3013,AC-1004,Data Integration,85000,Legal,2025-06-27,,U-06,CMP-4004,false
+DL-3014,AC-1003,Security Assessment,7500,Prospecting,2025-07-25,,U-06,CMP-4004,false
+DL-3015,AC-1007,Team Plan,7500,Legal,2025-08-15,,U-06,Partner,false
+DL-3016,AC-1012,Compliance Module,18000,Legal,2025-06-20,,U-02,CMP-4001,false
+DL-3017,AC-1009,API Access,40000,Prospecting,2025-09-22,,U-05,CMP-4003,true

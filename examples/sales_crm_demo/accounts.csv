@@ -1,0 +1,13 @@
+account_id,name,industry,region
+AC-1001,BlueOak Analytics,EdTech,NAMER
+AC-1002,Nimbus Labs,SaaS,APAC
+AC-1003,Quasar Health,Healthcare,NAMER
+AC-1004,MetroSoft,FinTech,NAMER
+AC-1005,Echo Finance,EdTech,NAMER
+AC-1006,Aurora Retail,EdTech,APAC
+AC-1007,Pioneer Robotics,Cybersecurity,NAMER
+AC-1008,VistaPay,Cybersecurity,EMEA
+AC-1009,Harbor Systems,SaaS,NAMER
+AC-1010,Citrus Cloud,SaaS,NAMER
+AC-1011,NovaSecure,FinTech,APAC
+AC-1012,Atlas Learning,Cybersecurity,NAMER

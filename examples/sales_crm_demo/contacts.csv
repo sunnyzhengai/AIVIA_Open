@@ -1,0 +1,37 @@
+contact_id,account_id,name,title,email,role
+CT-2001,AC-1003,Indy Morgan,Finance Manager,indy.morgan@example.com,Procurement
+CT-2002,AC-1003,Devin Rossi,Security Analyst,devin.rossi@example.com,Security
+CT-2003,AC-1003,Alex Diaz,Head of Procurement,alex.diaz@example.com,Security
+CT-2004,AC-1004,Eli Diaz,Head of Security,eli.diaz@example.com,Security
+CT-2005,AC-1004,Bri Nguyen,Head of Procurement,bri.nguyen@example.com,Economic Buyer
+CT-2006,AC-1004,Frankie Lopez,Security Analyst,frankie.lopez@example.com,Security
+CT-2007,AC-1005,Alex Chen,Operations Lead,alex.chen@example.com,Champion
+CT-2008,AC-1005,Bri Khan,CIO,bri.khan@example.com,Champion
+CT-2009,AC-1005,Eli Iverson,Security Analyst,eli.iverson@example.com,Security
+CT-2010,AC-1011,Jules Morgan,CIO,jules.morgan@example.com,Economic Buyer
+CT-2011,AC-1011,Kai Morgan,VP Engineering,kai.morgan@example.com,Economic Buyer
+CT-2012,AC-1011,Devin Nguyen,Head of Procurement,devin.nguyen@example.com,Security
+CT-2013,AC-1002,Hayden Iverson,IT Director,hayden.iverson@example.com,Finance
+CT-2014,AC-1002,Frankie Lopez,Head of Security,frankie.lopez@example.com,User
+CT-2015,AC-1002,Eli Chen,CIO,eli.chen@example.com,Champion
+CT-2016,AC-1007,Kai Diaz,Finance Manager,kai.diaz@example.com,User
+CT-2017,AC-1007,Devin Diaz,Operations Lead,devin.diaz@example.com,Procurement
+CT-2018,AC-1007,Eli Iverson,Finance Manager,eli.iverson@example.com,Finance
+CT-2019,AC-1001,Kai Lopez,CTO,kai.lopez@example.com,Finance
+CT-2020,AC-1001,Alex Lopez,Head of Procurement,alex.lopez@example.com,Security
+CT-2021,AC-1001,Bri Morgan,Security Analyst,bri.morgan@example.com,User
+CT-2022,AC-1008,Frankie Morgan,Operations Lead,frankie.morgan@example.com,Procurement
+CT-2023,AC-1008,Kai Rossi,CFO,kai.rossi@example.com,Security
+CT-2024,AC-1008,Carmen Morgan,Finance Manager,carmen.morgan@example.com,Champion
+CT-2025,AC-1012,Eli Chen,Security Analyst,eli.chen@example.com,Procurement
+CT-2026,AC-1012,Jules Khan,IT Director,jules.khan@example.com,Finance
+CT-2027,AC-1012,Carmen Mori,Operations Lead,carmen.mori@example.com,Economic Buyer
+CT-2028,AC-1010,Alex Nguyen,CFO,alex.nguyen@example.com,User
+CT-2029,AC-1010,Carmen Iverson,Head of Procurement,carmen.iverson@example.com,Champion
+CT-2030,AC-1010,Bri Khan,Head of Procurement,bri.khan@example.com,Champion
+CT-2031,AC-1009,Hayden Mori,VP Engineering,hayden.mori@example.com,Champion
+CT-2032,AC-1009,Alex Iverson,CIO,alex.iverson@example.com,User
+CT-2033,AC-1009,Indy Singh,IT Director,indy.singh@example.com,Economic Buyer
+CT-2034,AC-1006,Eli Khan,CFO,eli.khan@example.com,Procurement
+CT-2035,AC-1006,Alex Chen,VP Engineering,alex.chen@example.com,Champion
+CT-2036,AC-1006,Carmen Mori,CIO,carmen.mori@example.com,User
