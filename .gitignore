@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_save
+
+# OS
+.DS_Store
+
+# Neo4j (if you export dumps locally)
+*.dump
