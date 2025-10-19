@@ -1,0 +1,31 @@
+# Phrase → field/value hints (used alongside FAISS for recall)
+phrases_to_fields:
+  open deals: Deal.stage__not_in__Closed Won,Closed Lost
+  next meeting: Activity.next_step_date
+  next step: Activity.next_step_date
+  follow-up: Activity.next_step_date
+  engagement: Activity.next_step_date
+  activity: Activity.date
+  owner: User
+  rep: User
+  ae: User
+  team: User.team
+  commit: Deal.is_commit
+  close date: Deal.close_date
+  created: Deal.created_date
+  amount: Deal.amount
+  value: Deal.amount
+  deal size: Deal.amount
+
+values:
+  evaluate: Deal.stage="Evaluate"
+  economic buyer: Contact.role="Economic Buyer"
+  finance: Contact.role="Finance"
+  security: Contact.role="Security"
+  enterprise: User.team="Enterprise"
+
+time_phrases:
+  this quarter: quarter_window
+  this month: month_window
+  last N days: last_n_days
+  next N days: next_n_days

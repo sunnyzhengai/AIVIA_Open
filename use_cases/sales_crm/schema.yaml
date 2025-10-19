@@ -1,0 +1,27 @@
+# Graph schema for Sales CRM (maps your relational FK joins to allowed edges)
+labels:
+  Account:
+    properties: [id, name, industry, region]
+  Deal:
+    properties: [id, name, amount, stage, created_date, close_date, is_commit, account_id, owner_id]
+  Activity:
+    properties: [id, type, date, next_step_date, deal_id]
+  User:
+    properties: [id, name, team, region]
+  Contact:
+    properties: [id, name, title, email, role, account_id]
+
+# Edges are derived from real FKs (the “whitelist”)
+edges:
+  - { from: Account, rel: HAS_DEAL,    to: Deal,    via_fk: Deal.account_id }
+  - { from: Deal,    rel: HAS_ACTIVITY,to: Activity,via_fk: Activity.deal_id }
+  - { from: Deal,    rel: OWNED_BY,    to: User,    via_fk: Deal.owner_id }
+  - { from: Contact, rel: BELONGS_TO,  to: Account, via_fk: Contact.account_id }
+
+# Optional: default columns to show in results per label
+defaults:
+  Account: [name, industry]
+  Deal: [name, amount, stage, created_date]
+  Activity: [type, date, next_step_date]
+  User: [name, team]
+  Contact: [name, role]

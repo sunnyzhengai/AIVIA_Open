@@ -1,0 +1,24 @@
+Deal.stage:
+  - Prospect
+  - Evaluate
+  - Negotiate
+  - Closed Won
+  - Closed Lost
+
+Contact.role:
+  - Finance
+  - Security
+  - Economic Buyer
+  - IT
+  - Legal
+
+User.team:
+  - Enterprise
+  - Mid-Market
+  - SMB
+
+Account.industry:
+  - Healthcare
+  - Retail
+  - Finance
+  - Tech
